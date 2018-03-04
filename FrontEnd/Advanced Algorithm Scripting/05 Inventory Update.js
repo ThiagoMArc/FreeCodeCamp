@@ -12,7 +12,7 @@ function findElemIndexByName(array, n){
   function updateInventory(arr1, arr2) {
       let k;
       for(k=0; k< arr2.length; k++){
-        var idx = findElemIndexByName(arr1,arr2[k][1]);
+        let idx = findElemIndexByName(arr1,arr2[k][1]);
         if(idx > -1){
           arr1[idx][0] += arr2[k][0];
         }
