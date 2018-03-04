@@ -1,7 +1,7 @@
-function findElemIndexByName(array, n){
+function findElemIndexByName(array, prod){
     let i;
     for(i=0; i< array.length; i++){
-      if(array[i][1] === n){
+      if(array[i][1] === prod){
         return i;
       }
     }
